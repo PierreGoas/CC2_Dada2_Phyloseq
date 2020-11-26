@@ -1,0 +1,20 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library("Rcpp")
+library("dada2")
+```
+
+```{r}
+path <- "~/CC2_Dada2_Phyloseq/St_Stratif_10sept14"
+list.files(path)
+```
+
+```{r}
+path15 <- "~/CC2_Dada2_Phyloseq/St_Stratif_11mars15"
+list.files(path15)
+```
+
